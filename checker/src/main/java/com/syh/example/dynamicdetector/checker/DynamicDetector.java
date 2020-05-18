@@ -5,6 +5,7 @@ import com.syh.example.dynamicdetector.checker.rule.model.Rule;
 import com.syh.example.dynamicdetector.checker.rule.model.RuleEvent;
 import com.syh.example.dynamicdetector.checker.streamprocessor.*;
 import com.syh.example.dynamicdetector.checker.streamprocessor.tag.ConditionCheckOutputTags;
+import com.syh.example.dynamicdetector.common.Data;
 import org.apache.flink.api.java.functions.KeySelector;
 import org.apache.flink.streaming.api.TimeCharacteristic;
 import org.apache.flink.streaming.api.datastream.BroadcastStream;

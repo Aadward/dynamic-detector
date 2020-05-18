@@ -2,8 +2,8 @@ package com.syh.example.dynamicdetector.checker.rule;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
-import com.syh.example.dynamicdetector.checker.model.Data;
 import com.syh.example.dynamicdetector.checker.rule.model.Rule;
+import com.syh.example.dynamicdetector.common.Data;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;

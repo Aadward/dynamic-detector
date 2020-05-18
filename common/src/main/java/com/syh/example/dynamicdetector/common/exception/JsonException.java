@@ -1,4 +1,4 @@
-package com.syh.example.dynamicdetector.checker.exception;
+package com.syh.example.dynamicdetector.common.exception;
 
 public class JsonException extends RuntimeException {
 

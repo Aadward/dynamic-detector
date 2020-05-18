@@ -1,9 +1,8 @@
-package com.syh.example.dynamicdetector.checker.model;
+package com.syh.example.dynamicdetector.common;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.jayway.jsonpath.JsonPath;
-import com.syh.example.dynamicdetector.checker.util.JsonUtil;
 import lombok.NoArgsConstructor;
-import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.core.type.TypeReference;
 
 import java.io.Serializable;
 import java.util.Map;

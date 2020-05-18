@@ -3,6 +3,7 @@ package com.syh.example.dynamicdetector.checker.streamprocessor;
 import com.google.common.collect.Lists;
 import com.syh.example.dynamicdetector.checker.model.*;
 import com.syh.example.dynamicdetector.checker.rule.model.Rule;
+import com.syh.example.dynamicdetector.common.Data;
 import org.apache.flink.api.common.state.MapState;
 import org.apache.flink.api.common.state.MapStateDescriptor;
 import org.apache.flink.api.common.time.Time;
@@ -28,6 +29,7 @@ public class WindowProcessor extends KeyedRuleEventConnectedProcessor<Key, Keyed
 
     @Override
     public void open(Configuration parameters) throws Exception {
+        windowStateDescriptor.setQueryable("window-state");
         windowState = getRuntimeContext().getMapState(windowStateDescriptor);
     }
 

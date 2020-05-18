@@ -1,7 +1,7 @@
 package com.syh.example.dynamicdetector.checker.rule;
 
-import com.syh.example.dynamicdetector.checker.model.Data;
 import com.syh.example.dynamicdetector.checker.rule.model.Rule;
+import com.syh.example.dynamicdetector.common.Data;
 
 import java.util.Objects;
 
